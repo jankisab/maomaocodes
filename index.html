@@ -3,9 +3,14 @@
                 <div id="header"></div>
                 <nav id="navbar">
                     <ul>
-                        <li><a href="#">Home</a></li>
-			<li><a href="file:///C:/Users/saboo/Desktop/skills.html">Skills</a></li>
-			<li><a href="#">Projects</a></li>
+
+			<li> </li>
+			<li> </li>
+			<li> </li>
+			<li> </li>
+			<li> </li>
+			<li> </li>
+                        <li><a href="https://i.pinimg.com/736x/bd/32/68/bd326851445b7fe863c6d0b026d48f61.jpg">Projects</a></li>
 			<li><a href="#links">Contact</a><li>
 
  
@@ -18,12 +23,8 @@
                 <aside id="leftSidebar">
                     <h2>About me</h2>
                     <div class="box">
-                        <p>hihihi</p>
-                        <ul style="padding-left:2px;">
-                            <li>Rewrote the JS to generate cleaner code</li>
-                            <li>Rewrote the CSS in a way that hopefully makes much more sense to edit</li>
-                            <li>Added a couple of new features!</li>
-                            <li>Old version is still available <a href="old.html" target="_blank">here</a></li>
+                            <ul style="padding-left:2px;">
+                            <li>I love to read,crochet, watch anime and most importantly, eat :).  </li>
                         </ul><img src="https://i.pinimg.com/736x/e2/85/e6/e285e654ac4f0ad36e3810a5ae5af3b7.jpg" alt="maomao face" style="width:200px;height:200px;">
 
                     </div>
@@ -33,19 +34,24 @@
                 <main>
                     <h1>hello world!</h1>
                     <p><strong>my name is janki</p>
-                    <p>i am an amateur coder who wants to learn fun new stuff!!</p>
-                    <p>i did</p>
+                    <p>I am a first year ECE student at SRMIST ramapuram. I am a malayali who finished her schooling at Nirmalamatha central school, Thrissur. </p>
+                    <p>i am an amateur coder who just wants to learn fun new stuff!!</p>
                     <p>ps. zero AI was used making this website, i just did my best with youtube and the internet in general :)))</p>
 		<details>
     <summary>Skills</summary>
-    <p>I know python and sql. I am a beginner to html and css</p>
+    <p>I know Python and Mysql. I am a self taught beginner to html and css. I do not have much technical knowledge, but im really excited to learn more in college :) </p>
   </details>
 		<details>
     <summary>Projects</summary>
-    <p>I have not made a project up till now (unless this website is counted as a project, then yes ive made 1), but im excited to explore!!</p>
+    <p>I have not made a project up till now, but im excited to explore!!</p>
   </details>
 		<hr>
- <div id="links">Contact me!</div>
+ <div id="links"><center>Contact me!</center></div>
+		<p><center>Gmail: jankisabu671@gmail.com</center></p>
+		<p><center>Phone number: 9526446505</center></p>
+		<p><center><a href="www.linkedin.com/in/janki-sabu-b1a26842b">Linkedin Profile</a></center></p>
+		
+
                     
 
                   
@@ -56,33 +62,14 @@
         </div>
         css
         <style>
-            /* user styles */
-
-            /* styles are what change the color and sizes of stuff on your site. */
-
-            /* these are variables that are being used in the code
-    these tended to confuse some people, so I only kept 
-    the images as variables */
-
             :root {
                 --header-image: url('https://i.pinimg.com/1200x/e2/4b/74/e24b74696d4f6c0f9332c6f1fbc7ade9.jpg');
                 --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
 
-                /* colors 
-                --content: #43256E;*/
+                
             }
 
-            /* if you have the URL of a font, you can set it below */
-            /* feel free to delete this if it's not your vibe */
-
-            /* this seems like a lot for just one font and I would have to agree 
-    but I wanted to include an example of how to include a custom font.
-    If you download a font file you can upload it onto your Neocities
-    and then link it! Many fonts have separate files for each style
-    (bold, italic, etc. T_T) which is why there are so many!
-    
-    */
-
+           
             @font-face {
                 font-family: Nunito;
                 src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
@@ -111,7 +98,7 @@
                 font-family: 'Nunito', sans-serif;
                 margin: 0;
                 background-color: #08031A;
-                /* you can delete the line below if you'd prefer to not use an image */
+
                 background-size: 65px;
                 color: #fceaff;
                 background-image: var(--body-bg-image);
@@ -121,46 +108,28 @@
                 box-sizing: border-box;
             }
 
-            /* the "container" is what wraps your entire website */
-            /* if you want something (like the header) to be Wider than
-    the other elements, you will need to move that div outside
-    of the container */
-            #container {
+                        #container {
                 max-width: 900px;
-                /* this is the width of your layout! */
-                /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
-                margin: 0 auto;
-                /* this centers the entire page */
-            }
+                               margin: 0 auto;
+                            }
 
-            /* the area below is for all links on your page
-    EXCEPT for the navigation */
-            #container a {
+                        #container a {
                 color: #ED64F5;
                 font-weight: bold;
-                /* if you want to remove the underline
-      you can add a line below here that says:
-      text-decoration:none; */
-            }
+		}
 
             #header {
                 width: 100%;
                 background-color: #5e4e8c;
-                /* header color here! */
                 height: 150px;
-                /* this is only for a background image! */
-                /* if you want to put images IN the header, 
-      you can add them directly to the <div id="header"></div> element! */
                 background-image: var(--header-image);
                 background-size: 100%;
             }
 
-            /* navigation section!! */
+            
             #navbar {
                 height: 40px;
                 background-color: #13092D;
-                /* navbar color */
                 width: 100%;
             }
 
@@ -176,16 +145,16 @@
                 padding-top: 10px;
             }
 
-            /* navigation links*/
+            
             #navbar li a {
                 color: #ED64F5;
-                /* navbar text color */
+                
                 font-weight: 800;
                 text-decoration: none;
-                /* this removes the underline */
+                
             }
 
-            /* navigation link when a link is hovered over */
+            
             #navbar li a:hover {
                 color: #a49cba;
                 text-decoration: underline;
@@ -195,20 +164,17 @@
                 display: flex;
             }
 
-            /* this colors BOTH sidebars
-    if you want to style them separately,
-    create styles for #leftSidebar and #rightSidebar */
+            
             aside {
                 background-color: #241445;
                 width: 200px;
                 padding: 20px;
                 font-size: smaller;
-                /* this makes the sidebar text slightly smaller */
+               
             }
 
 
-            /* this is the color of the main content area,
-    between the sidebars! */
+            
             main {
                 background-color: #43256E;
                 flex: 1;
@@ -216,13 +182,7 @@
                 order: 2;
             }
 
-            /* what's this "order" stuff about??
-    allow me to explain!
-    if you're using both sidebars, the "order" value
-    tells the CSS the order in which to display them.
-    left sidebar is 1, content is 2, and right sidebar is 3! */
-
-            */ #leftSidebar {
+            #leftSidebar {
                 order: 1;
             }
 
@@ -232,13 +192,11 @@
 
             footer {
                 background-color: #13092D;
-                /* background color for footer */
-                width: 100%;
+                                width: 100%;
                 height: 40px;
                 padding: 10px;
                 text-align: center;
-                /* this centers the footer text */
-            }
+                           }
 
             h1,
             h2,
@@ -251,18 +209,17 @@
             }
 
             strong {
-                /* this styles bold text */
+                
                 color: #ED64F5;
             }
 
-            /* this is just a cool box, it's the darker colored one */
+            
             .box {
                 background-color: #13092D;
                 border: 1px solid #ED64F5;
                 padding: 10px;
             }
 
-            /* CSS for extras */
 
             #topBar {
                 width: 100%;
@@ -273,15 +230,7 @@
             }
 
 
-            /* BELOW THIS POINT IS MEDIA QUERY */
-
-            /* so you wanna change the width of your page? 
-    by default, the container width is 900px.
-    in order to keep things responsive, take your new height,
-    and then subtrack it by 100. use this new number as the 
-    "max-width" value below
-    */
-
+                    
             @media only screen and (max-width: 800px) {
                 #flex {
                     flex-wrap: wrap;
@@ -291,10 +240,6 @@
                     width: 100%;
                 }
 
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
                 main {
                     order: 1;
                 }
